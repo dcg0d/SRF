@@ -4,7 +4,7 @@ from datetime import date, timedelta
 from dateutil.relativedelta import relativedelta
 
 # Enunciado
-linha = '-=-=' * 26
+linha = '-=-=' * 23
 st.markdown("<h1 style='text-align: center;'>SIMULADOR DE INVESTIMENTO EM RENDA FIXA</h1>", unsafe_allow_html=True)
 st.write(linha)
 
