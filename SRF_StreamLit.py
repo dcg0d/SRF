@@ -15,10 +15,6 @@ st.markdown('''
     </div>
     ''', unsafe_allow_html=True)
 
-# Informações importantes
-#st.markdown("<p style='text-align: center; color: green;'>Valor do CDI atual: <span style='color: yellow;'>13.65%</span></p>", unsafe_allow_html=True)
-#st.write(linha)
-
 # Inputs
 valor = st.number_input('Qual o valor do investimento: R$ ')
 tempo = st.number_input('Por quanto tempo o capital ficará investido? ')
@@ -61,12 +57,12 @@ if st.button('Calcular'):
     # Variáveis
     tx_selic = 13.75
     tx_cdi = tx_selic - 0.10
-    anual = (valor/100)*tx_selic + valor
-    mensal_cdi = ((taxa/100)*tx_cdi)/12
-    mensal_selic = ((taxa/100)*tx_selic)/12
-    mensal_prefixado = ((taxa / 100) * taxa) / 12
-    anual_cdi = (taxa/100)*tx_cdi
-    anual_selic = (taxa/100)*tx_selic
+    anual = (valor/100) * tx_selic + valor
+    mensal_cdi = ((taxa/100) * tx_cdi)/12
+    mensal_selic = ((taxa/100) * tx_selic)/12
+    mensal_prefixado = ((taxa / 100) * taxa)/12
+    anual_cdi = (taxa/100) * tx_cdi
+    anual_selic = (taxa/100) * tx_selic
     anual_prefixado = taxa
 
     # Variáveis de Juros Compostos
