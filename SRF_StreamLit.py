@@ -6,7 +6,7 @@ from dateutil.relativedelta import relativedelta
 # Enunciado
 linha = '-=-=' * 12
 st.markdown("<h1 style='text-align: center;'>SIMULADOR DE INVESTIMENTO EM RENDA FIXA</h1>", unsafe_allow_html=True)
-st.write(linha)
+#st.write(linha)
 
 # Informações importantes
 st.markdown('''
@@ -16,7 +16,7 @@ st.markdown('''
     </div>
     ''', unsafe_allow_html=True)
 
-st.write(linha)
+#st.write(linha)
 
 
 # Informações importantes
