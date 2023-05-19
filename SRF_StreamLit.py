@@ -100,4 +100,4 @@ if st.button('Calcular'):
     data_atual = date.today()
     data_formatada = data_atual.strftime("%d/%m/%Y")
     st.write("Simulação realizada em", data_formatada,)
-    st.write('<font color="yellow">Muito obrigado por usar nosso simulador, espero ter te ajudado. Desejamos ótimos investimentos!!!</font>', unsafe_allow_html=True)
+    st.write('<font color="orange">Muito obrigado por usar nosso simulador, espero ter te ajudado. Desejamos ótimos investimentos!!!</font>', unsafe_allow_html=True)
