@@ -11,10 +11,11 @@ st.markdown("<h1 style='text-align: center;'>SIMULADOR DE INVESTIMENTO EM RENDA 
 # Informações importantes
 st.markdown('''
     <div style='text-align: center; background-color: lightgray; padding: 10px;'>
-        <p style='color: green;'>* Valor da SELIC atual: <span style='color: black;'>13.75%</span> *</p>
-        <p style='color: green;'>* Valor do CDI atual: <span style='color: black;'>13.65%</span> *</p>
+        <p style='color: green; margin: 0; padding: 5px;'>* Valor da SELIC atual: <span style='color: black;'>13.75%</span> *</p>
+        <p style='color: green; margin: 0; padding: 5px;'>* Valor do CDI atual: <span style='color: black;'>13.65%</span> *</p>
     </div>
     ''', unsafe_allow_html=True)
+
 
 #st.write(linha)
 
