@@ -6,19 +6,14 @@ from dateutil.relativedelta import relativedelta
 # Enunciado
 linha = '-=-=' * 12
 st.markdown("<h1 style='text-align: center;'>SIMULADOR DE INVESTIMENTO EM RENDA FIXA</h1>", unsafe_allow_html=True)
-#st.write(linha)
 
 # Informações importantes
 st.markdown('''
-    <div style='text-align: center; background-color: lightgray; padding: 10px;'>
-        <p style='color: green; margin: 0; padding: 5px;'>* Valor da SELIC atual: <span style='color: black;'>13.75%</span> *</p>
-        <p style='color: green; margin: 0; padding: 5px;'>* Valor do CDI atual: <span style='color: black;'>13.65%</span> *</p>
+    <div style='text-align: center;'>
+        <p style='color: green; margin: 0;'>* Valor da SELIC atual: <span style='color: black;'>13.75%</span> *</p>
+        <p style='color: green; margin: 0;'>* Valor do CDI atual: <span style='color: black;'>13.65%</span> *</p>
     </div>
     ''', unsafe_allow_html=True)
-
-
-#st.write(linha)
-
 
 # Informações importantes
 #st.markdown("<p style='text-align: center; color: green;'>Valor do CDI atual: <span style='color: yellow;'>13.65%</span></p>", unsafe_allow_html=True)
