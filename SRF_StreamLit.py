@@ -101,6 +101,6 @@ if st.button('Calcular'):
     fuso_horario = pytz.timezone('America/Sao_Paulo')
     data_atual = datetime.now(fuso_horario)
     data_formatada = data_atual.strftime("%d/%m/%Y %H:%M:%S")
-    st.sidebar.write("Simulação realizada em", data_formatada)
-    #st.text("Simulação realizada em {}".format(data_formatada))
+    #st.sidebar.write("Simulação realizada em", data_formatada)
+    st.write("Simulação realizada em {}".format(data_formatada))
     st.write('<font color="orange">Muito obrigado por usar o simulador, espero ter te ajudado. Desejo ótimos investimentos!!!</font>', unsafe_allow_html=True)
