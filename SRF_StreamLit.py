@@ -2,6 +2,7 @@ import streamlit as st
 from time import sleep
 from datetime import date, timedelta, datetime
 from dateutil.relativedelta import relativedelta
+import pytz
 
 # Enunciado
 linha = '-=-=' * 12
@@ -97,7 +98,8 @@ if st.button('Calcular'):
     ##data_formatada = data_atual.strftime("%d/%m/%Y")
     ##st.write("Simulação realizada em", data_formatada,)
     
-    data_atual = datetime.now()
+    fuso_horario = pytz.timezone('America/Sao_Paulo')
+    data_atual = datetime.now(fuso_horario)
     data_formatada = data_atual.strftime("%d/%m/%Y %H:%M:%S")
-    st.write("Simulação realizada em", data_formatada)
+    st.text("Simulação realizada em {}".format(data_formatada))
     st.write('<font color="orange">Muito obrigado por usar o simulador, espero ter te ajudado. Desejo ótimos investimentos!!!</font>', unsafe_allow_html=True)
