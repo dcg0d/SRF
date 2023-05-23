@@ -93,9 +93,9 @@ if st.button('Calcular'):
         st.write('--> O valor informado do imposto foi de <font color="green">{}%</font>, equivalente a <font color="green">R$ {:.2f}</font> do montante final.'.format(vlr_imposto, desc_imposto_prefixado), unsafe_allow_html=True)
         st.write('--> O valor na liquidez já descontado o I.R será de aproximadamente <font color="green">R$ {:.2f}</font>'.format(liquidez_real_prefixado), unsafe_allow_html=True)
 
-    #data_atual = date.today()
-    #data_formatada = data_atual.strftime("%d/%m/%Y")
-    #st.write("Simulação realizada em", data_formatada,)
+    ##data_atual = date.today()
+    ##data_formatada = data_atual.strftime("%d/%m/%Y")
+    ##st.write("Simulação realizada em", data_formatada,)
     
     data_atual = datetime.now()
     data_formatada = data_atual.strftime("%d/%m/%Y %H:%M:%S")
